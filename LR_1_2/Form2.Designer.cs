@@ -30,9 +30,17 @@
         {
             this.SuspendLayout();
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Brown;
+            this.button1.Text = "Hello!!!";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // nForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.BackColor = System.Drawing.Color.Blue;
             this.ClientSize = new System.Drawing.Size(242, 450);
             this.Name = "nForm";
             this.ResumeLayout(false);
